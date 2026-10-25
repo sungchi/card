@@ -1,0 +1,952 @@
+{
+ "schema": "seoreunja-icons-1",
+ "generated": "2026-10-20",
+ "style": "Card Creator Toolkit icon style (public/assets/card-template/icon-*.png, D-17): thick uniform black outline, flat fill with one darker shade, a small white highlight, chunky simple shapes, transparent background",
+ "count": 40,
+ "expected": 40,
+ "gaps": [],
+ "items": [
+  {
+   "id": "type-melee",
+   "ko": "근접",
+   "group": "type",
+   "file": "type-melee.webp",
+   "sha256": "617308ca399136db2d4647abd79657c24d32f3d2f08d7033e09abb135c366605",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6782,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "two short swords crossed in an X, grey steel blades, small golden cross-guards and warm brown grips",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "type-ranged",
+   "ko": "원거리",
+   "group": "type",
+   "file": "type-ranged.webp",
+   "sha256": "14277e5a1ec4eec1fe7f52fdd9c05d546ea046060ad8c55b6e18307a0f0037f8",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 7808,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a curved brown wooden bow with its string drawn back and an arrow nocked, the arrow pointing to the upper right",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "type-magic",
+   "ko": "마법",
+   "group": "type",
+   "file": "type-magic.webp",
+   "sha256": "9799712cfcd8526b90d938762a4565ca8c2d65fb1daf8d00d95523f0a3e50d83",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4880,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "two four-pointed magic sparkles, one big and one small, warm yellow (like the reference sparkles)",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "type-charge",
+   "ko": "돌격",
+   "group": "type",
+   "file": "type-charge.webp",
+   "sha256": "2cf47e2a21d31bbaa9efe037ae45e16a1d73045db18507bc2c4e1d773d5f3d1d",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4476,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a bold jagged lightning bolt, warm yellow-orange (like the reference lightning bolt)",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "type-fortress",
+   "ko": "요새",
+   "group": "type",
+   "file": "type-fortress.webp",
+   "sha256": "4e3352a74d39c7dd92dae4290f0c9cc5e21b41992c784fe39c05770fb67d50f8",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4222,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a squat round stone castle tower with three square crenellations on top and one narrow dark arrow-slit window, grey stone blocks",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "type-siege",
+   "ko": "공성",
+   "group": "type",
+   "file": "type-siege.webp",
+   "sha256": "f76894976de27daa33e92d22a65ea980fa13cf7420784ff1b0218a2b8deb6693",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5130,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a heavy two-handed war hammer lying diagonally: a big blocky grey steel head on a long brown wooden handle",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-counter",
+   "ko": "역습",
+   "group": "effect",
+   "file": "eff-counter.webp",
+   "sha256": "f495601937829326d12e621d696c418ce25a28413b387a6f0e23d365194037f8",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4840,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c1",
+    "candidate": "s3-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "one thick blue U-turn arrow: it rises, curves over the top and points back down (a turn-back arrow)",
+    "drawn": "2026-10-20T05:15:19Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-hold",
+   "ko": "버티기",
+   "group": "effect",
+   "file": "eff-hold.webp",
+   "sha256": "ce13294af860ba9af5d978b115106766e8b2d9afee8e3400ec2979bb3e0e0ae2",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4428,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c1",
+    "candidate": "s3-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a heavy dark grey iron ship anchor",
+    "drawn": "2026-10-20T05:15:19Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-intercept",
+   "ko": "요격",
+   "group": "effect",
+   "file": "eff-intercept.webp",
+   "sha256": "6646faf7b2b474875f5ad93772aea22dedcd8e483e9fba01485fc9dd5c9d8510",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6264,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c2",
+    "candidate": "s3-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a round wooden shield with an iron rim and an arrow stuck in it, the arrow coming from the left",
+    "drawn": "2026-10-20T05:23:31Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-smoke",
+   "ko": "연막",
+   "group": "effect",
+   "file": "eff-smoke.webp",
+   "sha256": "61ef2775961942d424c12ab9fc3e9e8743202e961f92a60560934555e92cd60c",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4684,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c1",
+    "candidate": "s3-c1",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a puffy light grey smoke cloud made of three round puffs",
+    "drawn": "2026-10-20T05:15:19Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-mantlet",
+   "ko": "방패차",
+   "group": "effect",
+   "file": "eff-mantlet.webp",
+   "sha256": "c3c2bc4646a8ed9d7d6aeb7bfbe88936a22245773dc9b7f578850f959965dc79",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6502,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c2",
+    "candidate": "s3-c2",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a big upright rectangular wooden plank shield with a narrow viewing slit, standing on two small round wheels",
+    "drawn": "2026-10-20T05:23:31Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-aim",
+   "ko": "조준",
+   "group": "effect",
+   "file": "eff-aim.webp",
+   "sha256": "f36444bda01ca11e2b2ede660a5d9c7613a72e613f0c89f7c693ec5b30a6f540",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 7942,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c1",
+    "candidate": "s3-c1",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a crosshair reticle: a thick blue ring with four short ticks pointing inward and a small dark centre dot",
+    "drawn": "2026-10-20T05:15:19Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-double",
+   "ko": "연타",
+   "group": "effect",
+   "file": "eff-double.webp",
+   "sha256": "1be26b96c196f29d9e541f71c0998d08ffb59fb7b6be934b0afce2de3a7c6b11",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6372,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c2",
+    "candidate": "s3-c2",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "two parallel diagonal claw slash marks, red, tapered at both ends",
+    "drawn": "2026-10-20T05:23:31Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-ambush",
+   "ko": "기습",
+   "group": "effect",
+   "file": "eff-ambush.webp",
+   "sha256": "29e7cd8add6b1ee88e824bbbc45b3c0db03e2cf5ccff291f65231a5a438c7e0d",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5308,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c1",
+    "candidate": "s3-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a short steel dagger pointing up in front of a yellow crescent moon",
+    "drawn": "2026-10-20T05:15:19Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-poison",
+   "ko": "독침",
+   "group": "effect",
+   "file": "eff-poison.webp",
+   "sha256": "f445128fbef12122360be8ffdc0126466c036a7685b8606c0be8b55a7ce788d4",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4170,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c1",
+    "candidate": "s1-c1",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a big green poison drop hanging from the tip of a small sharp dark stinger needle",
+    "drawn": "2026-10-20T05:11:06Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-bombard",
+   "ko": "포격",
+   "group": "effect",
+   "file": "eff-bombard.webp",
+   "sha256": "ad7018f3df5126f4b7382e7f8f827da886d0c5524a116dfe4b083076cbb8548d",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3896,
+   "source": {
+    "kind": "codex",
+    "sheet": "s3-c1",
+    "candidate": "s3-c1",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a black iron cannonball flying to the right with a short orange flame trail behind it",
+    "drawn": "2026-10-20T05:15:19Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-thorn",
+   "ko": "가시벽",
+   "group": "effect",
+   "file": "eff-thorn.webp",
+   "sha256": "2c1b57dc255155da5281309f8500a80ed7c2ddb926236de3347d3a55764cc314",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 7540,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c2",
+    "candidate": "s2-c2",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a round green bramble bush bristling with big sharp pale thorns all around its edge",
+    "drawn": "2026-10-20T05:21:21Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-sortie",
+   "ko": "출격",
+   "group": "effect",
+   "file": "eff-sortie.webp",
+   "sha256": "44d5b37dda3e7b50443306060b7e2652ebcb75f2185974bca1772069e46bb1bb",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 7158,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c2",
+    "candidate": "s2-c2",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "an arched wooden castle gate with its two doors swung open and a red arrow bursting out of it to the right",
+    "drawn": "2026-10-20T05:21:21Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-leech",
+   "ko": "흡혈",
+   "group": "effect",
+   "file": "eff-leech.webp",
+   "sha256": "fe54b90fe875977a7d0fbfd61f2cc4dc39d7dd7519a599b71305770e8e138382",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5192,
+   "source": {
+    "kind": "codex",
+    "sheet": "s4-c2",
+    "candidate": "s4-c2-fangs-o20",
+    "variant": "fangs",
+    "stroke": 0.02,
+    "metaphor": "two white vampire fangs with one red blood drop below them",
+    "alternate": "drawn as icons.json alternate 'fangs', since made the primary metaphor",
+    "drawn": "2026-10-20T05:25:24Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-heal",
+   "ko": "치유",
+   "group": "effect",
+   "file": "eff-heal.webp",
+   "sha256": "a6997a810671cdb98de8a00e81914e90888efb7948c7e5c50502667400a21aeb",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5608,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c1",
+    "candidate": "s1-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a round glass potion flask with a cork stopper, filled with red healing liquid",
+    "drawn": "2026-10-20T05:11:06Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-bless",
+   "ko": "축복",
+   "group": "effect",
+   "file": "eff-bless.webp",
+   "sha256": "98d60efd240d9e6805290ebb9a13f892cf5d1d1570394871dd22a9cf9a4d498c",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6374,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c2",
+    "candidate": "s1-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a golden halo ring floating above a pair of small white angel wings",
+    "drawn": "2026-10-20T05:19:16Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-lastword",
+   "ko": "유언",
+   "group": "effect",
+   "file": "eff-lastword.webp",
+   "sha256": "adb2975e1309e01cf3488650e6df8cbbccc161a5bf370699163be6112b7cfc52",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3792,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c1",
+    "candidate": "s1-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a short white wax candle with a lit orange flame and one wax drip",
+    "drawn": "2026-10-20T05:11:06Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-doublewall",
+   "ko": "이중벽",
+   "group": "effect",
+   "file": "eff-doublewall.webp",
+   "sha256": "4d0fbebc50e972c5ee81f4bdc1a6fed9ba403b761c6640d5aef5d2e6fe4e2288",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4912,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c1",
+    "candidate": "s2-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "two grey stone block walls, one behind the other: a low front wall and a taller back wall offset to the right, visible above it (a stepped double wall)",
+    "drawn": "2026-10-20T05:13:10Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-sturdy",
+   "ko": "굳건함",
+   "group": "effect",
+   "file": "eff-sturdy.webp",
+   "sha256": "12d1dcf45b1a004c757a732ebbbf801af64df493bf2d081c670212895f96eea5",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3564,
+   "source": {
+    "kind": "codex",
+    "sheet": "s4-c1",
+    "candidate": "s4-c1-anvil-o20",
+    "variant": "anvil",
+    "stroke": 0.02,
+    "metaphor": "a heavy dark grey iron anvil",
+    "alternate": "drawn as icons.json alternate 'anvil', since made the primary metaphor",
+    "drawn": "2026-10-20T05:17:16Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-supply",
+   "ko": "보급",
+   "group": "effect",
+   "file": "eff-supply.webp",
+   "sha256": "4f1d8059c0237dcd8c5fd04b71f18e65837dcf26fc2f5b87d1e42496c94ee26b",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6382,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c2",
+    "candidate": "s1-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a tan burlap grain sack tied at the top with a rope, a few golden grains in front",
+    "drawn": "2026-10-20T05:19:16Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-freeze",
+   "ko": "빙결",
+   "group": "effect",
+   "file": "eff-freeze.webp",
+   "sha256": "9531b12a345b89dd8c3dcae3c398d39ae003764b5bf28fa292ac64d7c58f0947",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6946,
+   "source": {
+    "kind": "codex",
+    "sheet": "s4-c2",
+    "candidate": "s4-c2",
+    "variant": null,
+    "stroke": 0,
+    "metaphor": "a six-armed snowflake, icy light blue",
+    "drawn": "2026-10-20T05:25:24Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs"
+   }
+  },
+  {
+   "id": "eff-curse",
+   "ko": "저주",
+   "group": "effect",
+   "file": "eff-curse.webp",
+   "sha256": "31deaf8da78744dd39d8d1e6edc9ffe8e1c7517afde43b4371bbd10856230efd",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3644,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c1",
+    "candidate": "s1-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a floating ghostly skull trailing a wispy tail, deep greyish violet",
+    "drawn": "2026-10-20T05:11:06Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-harass",
+   "ko": "견제",
+   "group": "effect",
+   "file": "eff-harass.webp",
+   "sha256": "8a4fd6ed4de3524f1d4dd3279a3327eb34b8d6344a913f1d926e01f9e4a72413",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5674,
+   "source": {
+    "kind": "codex",
+    "sheet": "s4-c2",
+    "candidate": "s4-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a Y-shaped wooden slingshot with its band pulled back holding a small grey pebble",
+    "drawn": "2026-10-20T05:25:24Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-scramble",
+   "ko": "교란",
+   "group": "effect",
+   "file": "eff-scramble.webp",
+   "sha256": "3a8ceab8d11faa99711bb5ca7b28d6eddedd9f2104d79072b1def8bd95bc33a5",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5082,
+   "source": {
+    "kind": "codex",
+    "sheet": "s4-c2",
+    "candidate": "s4-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a dizzy spiral swirl with a curly outer tail, deep indigo blue with a lighter inner line",
+    "drawn": "2026-10-20T05:25:24Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-dismantle",
+   "ko": "해체",
+   "group": "effect",
+   "file": "eff-dismantle.webp",
+   "sha256": "c5748ec71ed627349265edbfca99ec506d67bf31a0535f1f2fdbb7602524143a",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5318,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c2",
+    "candidate": "s2-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a big steel wrench lying diagonally, its open jaw gripping a small cracked orange brick",
+    "drawn": "2026-10-20T05:21:21Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-firearrow",
+   "ko": "불화살",
+   "group": "effect",
+   "file": "eff-firearrow.webp",
+   "sha256": "f4ab279183c675c1e05c9c6773b0aaf290eed8b8e468cc5fb217efc0adc03c18",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6374,
+   "source": {
+    "kind": "codex",
+    "sheet": "s4-c2",
+    "candidate": "s4-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "an arrow flying to the upper right with a big orange-yellow flame wrapped around its head",
+    "drawn": "2026-10-20T05:25:24Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-tunnel",
+   "ko": "땅굴",
+   "group": "effect",
+   "file": "eff-tunnel.webp",
+   "sha256": "c193d1eeaea2bfcde200c2ef7546696af030fbb2956411d3f8988a5d8bc3861d",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5684,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c2",
+    "candidate": "s2-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a brown dirt mound with a dark round burrow hole in its front and a small shovel stuck in its top",
+    "drawn": "2026-10-20T05:21:21Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-ruin",
+   "ko": "폐허",
+   "group": "effect",
+   "file": "eff-ruin.webp",
+   "sha256": "ddfad343feaf6b91a37f43438e38857325939908313afce99490c352dde6f549",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5160,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c2",
+    "candidate": "s2-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a heap of broken grey stone blocks (rubble) with one cracked block on top",
+    "drawn": "2026-10-20T05:21:21Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "eff-boiling",
+   "ko": "끓는 물",
+   "group": "effect",
+   "file": "eff-boiling.webp",
+   "sha256": "2ca02aebbc363e8b25954e94ee8e3056da53810d24867e5419b86bd1c3f15fe1",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5570,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c2",
+    "candidate": "s2-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a black iron cauldron on three short legs, full of bubbling orange liquid with two bubbles and a wisp of steam",
+    "drawn": "2026-10-20T05:21:21Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "ui-silenced",
+   "ko": "봉인",
+   "group": "ui",
+   "file": "ui-silenced.webp",
+   "sha256": "5afa8c6e5575c08b8f05c44cc569e478e6268458d41a8c7b533eb755e798d811",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3470,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a closed grey steel padlock with a dark keyhole",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "ui-heart",
+   "ko": "하트",
+   "group": "ui",
+   "file": "ui-heart.webp",
+   "sha256": "9fa3d698b8c827833542707dcf69ca2850c866eefdf443cc03b6b2fcfa7b8287",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4182,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c2",
+    "candidate": "s1-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a full red heart",
+    "drawn": "2026-10-20T05:19:16Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "ui-heart-broken",
+   "ko": "깨진 하트",
+   "group": "ui",
+   "file": "ui-heart-broken.webp",
+   "sha256": "c4b1b125610ba27e3188ca26c4482510424c19c39c3f1181ef31185f180ed1da",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 5238,
+   "source": {
+    "kind": "codex",
+    "sheet": "s1-c2",
+    "candidate": "s1-c2-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a red heart broken into two halves along a zigzag crack, the halves slightly apart",
+    "drawn": "2026-10-20T05:19:16Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "ui-brick",
+   "ko": "벽돌",
+   "group": "ui",
+   "file": "ui-brick.webp",
+   "sha256": "123a923fd80534269c21b564dfce88643e2ca3a6ea9a041f1863e99e1fec92c2",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3780,
+   "source": {
+    "kind": "codex",
+    "sheet": "s2-c1",
+    "candidate": "s2-c1-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a single chunky orange-red clay brick block seen at a slight angle",
+    "drawn": "2026-10-20T05:13:10Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  },
+  {
+   "id": "ui-chain",
+   "ko": "연계 사슬",
+   "group": "ui",
+   "file": "ui-chain.webp",
+   "sha256": "e3fd97f966a6cfa23c9afa3cb4eef2407c774b79e0a622a11884eae192f16560",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 3172,
+   "source": {
+    "kind": "toolkit",
+    "file": "public/assets/card-template/icon-chain.png",
+    "sha256": "e61ae09819e61a928f4a3c4baa8b25fbf626678826d84388e1e48cae18b7dede",
+    "process": "trimmed to its alpha > 8 bbox, padded 6 % per side to a square, premultiplied Catmull-Rom to 192, cwebp -q 90 -alpha_q 100 -m 6 -sharp_yuv",
+    "note": "the current icon won the blind pick and is kept (Card Creator Toolkit, D-17)"
+   }
+  },
+  {
+   "id": "ui-judge",
+   "ko": "판정관",
+   "group": "ui",
+   "file": "ui-judge.webp",
+   "sha256": "265a386b1cb83a54661503287527390faac28002e86463bd6b2fd7b2d792201d",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 6022,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "a golden balance scale (scales of justice) with two hanging pans, level",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  }
+ ],
+ "variants": [
+  {
+   "id": "ui-chain",
+   "file": "ui-chain-small.webp",
+   "use": "drawn below 48 CSS px (gameIcons.ts CHAIN_SMALL_BELOW_CSS): every chain in the game (card face link 15 / 30 / 45 CSS px on S / M / L, replay and deck marks 16-20 px)",
+   "sha256": "3c54daf719e2607900c32236ac9bdd8c88f4e622b25d24a39104d44c01173aa3",
+   "size": [
+    192,
+    192
+   ],
+   "bytes": 4910,
+   "source": {
+    "kind": "codex",
+    "sheet": "s0-c3",
+    "candidate": "s0-c3-o20",
+    "variant": null,
+    "stroke": 0.02,
+    "metaphor": "two interlocked grey steel chain links on a diagonal (like the reference chain)",
+    "drawn": "2026-10-20T05:02:26Z",
+    "styleReference": "283d417e1cde722ee9f2ed7a5f5902cb0484123d19b17aa2addc50304ba83c8f",
+    "generator": "scripts/art/icons/gen-sheet.sh (Codex built-in image generation) + slice.mjs --stroke 0.02"
+   }
+  }
+ ]
+}

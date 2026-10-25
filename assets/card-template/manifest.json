@@ -1,0 +1,95 @@
+{
+  "source": "Godot card_toolkit face/skin and ordered_hand card/hand presentation",
+  "files": [
+    {
+      "source": "game/assets/card-toolkit-02/native-base.png",
+      "file": "native-base.png",
+      "sha256": "10884658eb8b62373413579adffb01f9111a8e7a731b6ef2e984853639c2f1eb"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-effect.png",
+      "file": "native-effect.png",
+      "sha256": "c034a9ca5180e5823fc0e5777b4da7089402f5bdb8bab54e1dd2f7fd72f5f89f"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-cost.png",
+      "file": "native-cost.png",
+      "sha256": "58ea7d6c8f69c0e04e8233764928440433030be76dca1213980b09474e8b15b3"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-stat.png",
+      "file": "native-stat.png",
+      "sha256": "edb4e3698a115a2d55784ae21fb0fbb6a8ac68e456c9a240713f7f1059d8d61a"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-image-mask.png",
+      "file": "native-image-mask.png",
+      "sha256": "270b5dc1c83695f88823dd6e03e61919a137f5fde851947631489dfd2114a78a"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-banner.png",
+      "file": "native-banner.png",
+      "sha256": "10c849c585577906bb6a3527320fe1a2f6e621d8ab5c63a484dcbb9ba790afb3"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-frame-magic.png",
+      "file": "native-frame-magic.png",
+      "sha256": "c9b820aeb823e3aa677974c482bee9516f9212fc5be09ba32369bf2dc2857d31"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-frame-gold.png",
+      "file": "native-frame-gold.png",
+      "sha256": "e76fa7557741a74aef94e7f81c08a04c55b3070de2347ce31ee08bbedf465715"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-frame-silver.png",
+      "file": "native-frame-silver.png",
+      "sha256": "1deda87be644e3218f46f53abbe8a97b90af43707d493cb8eeb5e786b9451152"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-type-badge.png",
+      "file": "native-type-badge.png",
+      "sha256": "cb0d01daf89f971a6b88e4945a17aa99ccc42b9a52ca865e512eae2a3aabc78e"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-frame-copper.png",
+      "file": "native-frame-copper.png",
+      "sha256": "c32be0a0a8f34234f158ec292d64cc48e59883f0396d065128d4d0b35e4fe1c1"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/native-ribbon.png",
+      "file": "native-ribbon.png",
+      "sha256": "a0b774b303e26f4e2c2aa913ce7d5b224963fe3f95dd03e543185f53e0683a72"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/icon-leaf.png",
+      "file": "icon-leaf.png",
+      "sha256": "cffb16ca22862de92844cbc3d9b72fe92e4c5723c779408f313f0f32f61d38ac"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/icon-wings.png",
+      "file": "icon-wings.png",
+      "sha256": "726de1622f4846967e895895a42abc5244cd5df49741db7da456aab2cbe0b4fe"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/icon-stone.png",
+      "file": "icon-stone.png",
+      "sha256": "c6cc88cfe4807223dff4b49c6bae27730e1c1a34d558ac646b3456bf0cc6bc30"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/icon-time.png",
+      "file": "icon-time.png",
+      "sha256": "716a8e8b355cba9e0c02f34b8fbb59d8edd44eec048b1b19b73c7153ae5a9682"
+    },
+    {
+      "source": "game/assets/card-toolkit-02/icon-chain.png",
+      "file": "icon-chain.png",
+      "sha256": "e61ae09819e61a928f4a3c4baa8b25fbf626678826d84388e1e48cae18b7dede"
+    },
+    {
+      "source": "game/assets/fonts/jua/Jua-Regular.ttf",
+      "file": "Jua-Regular.ttf",
+      "sha256": "769677aef240bfc3b9965f2b50748075bff885e6c6992fc591a3fb268279f898"
+    }
+  ]
+}
