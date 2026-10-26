@@ -80,8 +80,8 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/card/assets/index-ACI7BI7b.js"></script>
-    <link rel="stylesheet" crossorigin href="/card/assets/index-mERo3it8.css">
+    <script type="module" crossorigin src="/card/assets/index-Brhb3ZdW.js"></script>
+    <link rel="stylesheet" crossorigin href="/card/assets/index-pJt44_wA.css">
   </head>
   <body>
     <div id="root">
@@ -94,15 +94,14 @@
       // Boot line in the player's language (same rule as the app: stored choice, else the browser) and the
       // viewport class before the first paint (src/lib/viewport.ts keeps it up to date).
       (function () {
+        var stored = null;
+        try { stored = localStorage.getItem('sj:lang'); } catch (e) {}
         try {
-          var stored = localStorage.getItem('sj:lang');
-          var nav = (navigator.language || '').toLowerCase();
-          var ko = stored === 'ko' || (stored !== 'en' && nav.indexOf('ko') === 0);
-          if (!ko) {
-            document.documentElement.lang = 'en';
-            document.getElementById('sj-boot-name').textContent = 'Card Battle';
-            document.getElementById('sj-boot-text').textContent = 'Loading';
-          }
+          var nav = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase().split(/[-_]/)[0];
+          var lang = stored === 'ko' || stored === 'ja' || stored === 'en' ? stored : nav === 'ko' || nav === 'ja' ? nav : 'en';
+          document.documentElement.lang = lang;
+          document.getElementById('sj-boot-name').textContent = lang === 'ko' ? '카드 배틀' : 'Card Battle';
+          document.getElementById('sj-boot-text').textContent = lang === 'ko' ? '불러오는 중' : lang === 'ja' ? '読み込み中' : 'Loading';
           var w = window.innerWidth;
           var q = new URLSearchParams(location.search).get('view');
           document.documentElement.setAttribute('data-view', q === 'mobile' ? 'mobile' : q === 'desktop' ? (w >= 1440 ? 'wide' : 'desktop') : w < 640 ? 'mobile' : w < 1024 ? 'tablet' : w < 1440 ? 'desktop' : 'wide');
