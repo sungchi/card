@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-entry-lang="">
   <head>
     <meta charset="utf-8" />
     <!-- No user-scalable=no: zoom must stay available (UI-52). viewport-fit=cover for the safe-area insets (UI-42). -->
@@ -9,13 +9,16 @@
     <link rel="icon" href="/card/assets/favicon/card-battle-v1.ico" sizes="16x16 32x32 48x48" />
     <link rel="icon" type="image/png" href="/card/assets/favicon/card-battle-v1-32.png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/card/assets/favicon/card-battle-v1-180.png" sizes="180x180" />
-    <title>카드 배틀 · 30자 카드 결투</title>
-    <meta name="description" content="30자 설명으로 카드를 만들면 판정관이 유형을 읽는다. 세 장의 설명과 순서로 겨루는 비동기 3:3 카드 결투." />
-    <!-- Share crawlers read the initial HTML. Reuse the full-size favicon artwork at its public URL. -->
+    <!-- card:metadata:start -->
+    <title>카드 배틀 | 직접 쓴 카드로 3:3 대결</title>
+    <meta name="description" content="자연어로 카드를 만들고 세 장의 덱으로 대결하는 웹게임입니다. AI가 카드 간 대결을 판정합니다." />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="카드 배틀 · Card Battle" />
-    <meta property="og:title" content="카드 배틀 · 30자 카드 결투" />
-    <meta property="og:description" content="30자 설명으로 카드를 만들면 판정관이 유형을 읽는다. 세 장의 설명과 순서로 겨루는 비동기 3:3 카드 결투." />
+    <meta property="og:title" content="카드 배틀 | 직접 쓴 카드로 3:3 대결" />
+    <meta property="og:description" content="자연어로 카드를 만들고 세 장의 덱으로 대결하는 웹게임입니다. AI가 카드 간 대결을 판정합니다." />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <meta property="og:url" content="https://plan9.kr/card/" />
     <meta property="og:image" content="https://plan9.kr/card/assets/favicon/card-battle-v1-512.png" />
     <meta property="og:image:type" content="image/png" />
@@ -23,10 +26,11 @@
     <meta property="og:image:height" content="512" />
     <meta property="og:image:alt" content="카드 배틀의 금색 별 방패와 교차한 검 아이콘" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="카드 배틀 · 30자 카드 결투" />
-    <meta name="twitter:description" content="30자 설명으로 카드를 만들면 판정관이 유형을 읽는다. 세 장의 설명과 순서로 겨루는 비동기 3:3 카드 결투." />
+    <meta name="twitter:title" content="카드 배틀 | 직접 쓴 카드로 3:3 대결" />
+    <meta name="twitter:description" content="자연어로 카드를 만들고 세 장의 덱으로 대결하는 웹게임입니다. AI가 카드 간 대결을 판정합니다." />
     <meta name="twitter:image" content="https://plan9.kr/card/assets/favicon/card-battle-v1-512.png" />
     <meta name="twitter:image:alt" content="카드 배틀의 금색 별 방패와 교차한 검 아이콘" />
+    <!-- card:metadata:end -->
     <!-- Pretendard for the white UI; Jua and Noto remain the card fonts. All fonts are self-hosted OFL subsets. -->
     <link rel="stylesheet" href="/card/fonts/pretendard/pretendardvariable-dynamic-subset.css" />
     <link rel="stylesheet" href="/card/fonts/jua/jua.css" />
@@ -80,7 +84,7 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/card/assets/index-B_AiCygu.js"></script>
+    <script type="module" crossorigin src="/card/assets/index-Baz89Q8G.js"></script>
     <link rel="stylesheet" crossorigin href="/card/assets/index-egVwoIqp.css">
   </head>
   <body>
@@ -91,14 +95,15 @@
       </div>
     </div>
     <script>
-      // Boot line in the player's language (same rule as the app: stored choice, else the browser) and the
+      // Boot line in the player's language (explicit entry, stored choice, then browser) and the
       // viewport class before the first paint (src/lib/viewport.ts keeps it up to date).
       (function () {
         var stored = null;
         try { stored = localStorage.getItem('sj:lang'); } catch (e) {}
         try {
           var nav = ((navigator.languages && navigator.languages[0]) || navigator.language || '').toLowerCase().split(/[-_]/)[0];
-          var lang = stored === 'ko' || stored === 'ja' || stored === 'en' ? stored : nav === 'ko' || nav === 'ja' ? nav : 'en';
+          var entry = document.documentElement.getAttribute('data-entry-lang');
+          var lang = entry === 'ko' || entry === 'ja' || entry === 'en' ? entry : stored === 'ko' || stored === 'ja' || stored === 'en' ? stored : nav === 'ko' || nav === 'ja' ? nav : 'en';
           document.documentElement.lang = lang;
           document.getElementById('sj-boot-name').textContent = lang === 'ko' ? '카드 배틀' : 'Card Battle';
           document.getElementById('sj-boot-text').textContent = lang === 'ko' ? '불러오는 중' : lang === 'ja' ? '読み込み中' : 'Loading';
